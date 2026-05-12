@@ -533,3 +533,82 @@ a{
 
     transform: scale(0.95);
 }
+/* ========================= */
+/* MOBILE RESPONSIVE DESIGN */
+/* ========================= */
+
+@media (max-width: 768px){
+
+    .main{
+        flex-direction: column;
+        height: auto;
+    }
+
+    .side-bar{
+        width: 100%;
+        height: auto;
+        margin-right: 0;
+        margin-bottom: 0.5rem;
+    }
+
+    .main-content{
+        width: 100%;
+        padding: 1rem;
+        overflow-x: hidden;
+    }
+
+    .sticky-nav{
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+
+    .sticky-nav-icons{
+        display: none;
+    }
+
+    .card-container{
+        justify-content: center;
+    }
+
+    .card{
+        width: 140px;
+        margin-left: 0;
+    }
+
+    .music-player{
+        flex-direction: column;
+        height: auto;
+        padding: 0.5rem;
+    }
+
+    .album,
+    .controls{
+        display: none;
+    }
+
+    .player{
+        width: 100%;
+    }
+
+    .playback-bar{
+        width: 100%;
+    }
+
+    .progres-bar{
+        width: 80%;
+    }
+
+    .library{
+        height: auto;
+    }
+
+    .badge{
+        font-size: 0.75rem;
+        padding: 0.4rem 0.8rem;
+    }
+
+    .profile-dropdown{
+        right: -20px;
+    }
+
+}
